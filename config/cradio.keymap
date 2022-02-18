@@ -84,7 +84,7 @@
 		bindings = <
 		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp C_PP  &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE  &kp PRINTSCREEN 
 		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp C_NEXT  &kp LEFT  &kp UP  &kp RIGHT   &kp HOME
-		&kp LSHFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp C_PREV &kp  &kp DOWN &kp trans  &kp END
+		&kp LSHFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp C_PREV &trans  &kp DOWN &trans  &kp END
 					  &mo 3 &kp SPACE  				&kp ENTER  &mo 2 
 		>;
 		};	
