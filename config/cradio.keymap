@@ -66,14 +66,14 @@
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B 					        &kp J &kp L  &kp U  &kp Y  &mt SQT BACKSPACE
 		&kp A &kp R &kp S &kp T &kp G 			        		&kp K &kp N &kp E &kp I &kp O
-		&mt LSHFT Z &mt LC(X) X &mt LC(C) C &mt LC(V) D &kp V			&kp M &kp H  &kp COMMA &kp DOT &mt LALT FSLH
+		&mt LSHFT Z &mt X &mt C &mt D &kp V			                &kp M &kp H  &kp COMMA &mt LCTRL DOT &mt LALT FSLH
           				&mo 1 &kp SPACE  				&kp ENTER &mo 2 
 		>;
 		};
 
        		left_layer {
 		bindings = <
-		&kp ESC   &kp N1    &kp N2    &kp N3    &kp MINUS		&kp F1 &kp F2 &kp F3 &kp F4 &mt DEL BACKSPACE 
+		&kp ESC   &kp N1    &kp N2    &kp N3    &kp MINUS		&kp F1 &kp F2 &kp F3 &kp F4 &kp BACKSPACE 
 		&kp TAB   &kp N4    &kp N5    &kp N6    &kp EQUAL 		&kp F5 &kp F6  &kp F7 &kp F8  &mt RPAR LPAR
 		&sk LSHFT  &kp N7    &kp N8    &kp N9    &kp N0			&kp F9 &kp F10 &kp F11 &kp F12  &kp SEMICOLON
 					    &mo 1  &kp SPACE  			&kp ENTER &mo 2 
