@@ -11,7 +11,7 @@
 
 &mt {
   //  flavor = "tap-preferred";
-   // tapping_term_ms = <600>;
+   // tapping_term_ms = <300>;
 };
 
 / { 
@@ -20,7 +20,7 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
             bindings = <&kp ESC>;
         };
         
@@ -64,10 +64,10 @@
                 
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp F &kp P &kp B 					        &kp J &kp L  &kp U  &kp Y  &mt SQT BACKSPACE
+		&kp Q &kp W &kp F &kp P &kp B 					        &kp J &kp L  &kp U  &kp Y  &kp SQT
 		&kp A &kp R &kp S &kp T &kp G 			        		&kp K &kp N &kp E &kp I &kp O
-		&mt LSHFT Z &mt X &mt C &mt D &kp V			                &kp M &kp H  &kp COMMA &mt LCTRL DOT &mt LALT FSLH
-          				&mo 1 &kp SPACE  				&kp ENTER &mo 2 
+		&kp Z &kp X &kp C &kp D &kp V			                	&kp M &kp H  &kp COMMA &mt LCTRL DOT &mt LALT FSLH
+          				&lt 1 BSPC &mt LSHFT SPACE  				&kp ENTER &mo 2 
 		>;
 		};
 
@@ -82,7 +82,7 @@
 		
 		right_layer {
 		bindings = <
-		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp C_PP  &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE  &kp PRINTSCREEN 
+		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp C_PP  &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE  &kp BSPC 
 		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp C_NEXT  &kp LEFT  &kp UP  &kp RIGHT   &kp HOME
 		&kp LSHFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp C_PREV &trans  &kp DOWN &trans  &kp END
 					  &mo 3 &kp SPACE  				&kp ENTER  &mo 2 
